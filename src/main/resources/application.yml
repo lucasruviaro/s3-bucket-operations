@@ -1,0 +1,16 @@
+cloud:
+  aws:
+    credentials:
+      access-key: ${env.accessKey}
+      secret-key: ${env.secretKey}
+    region:
+      static: us-east-1
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: bucket-study
+
+server:
+  port: 8080
